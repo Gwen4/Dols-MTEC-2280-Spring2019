@@ -1,0 +1,21 @@
+//week02_MonHW Make some art
+//GwenF
+void setup()
+{
+  size(400,400);
+  background(#aa95af);
+}
+
+void draw()
+{
+  if(mousePressed == true)
+  {
+    noStroke();
+    fill(255);
+    ellipse(random(25,width-25), random(25,height-25), 50,50);
+  }
+  else if(keyCode == TAB)
+  {
+    background(#aa95af);
+  }
+}
